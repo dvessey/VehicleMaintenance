@@ -2,7 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VehicleMaintanence.Views.VehiclesDetailPage">
-    <TableView Intent="Form" Margin="16,0">
+    <StackLayout Margin="0,10">
+        <Image WidthRequest="200" HeightRequest="200" Aspect="AspectFit" x:Name="image"/>
+        <Button Text="Add Photo" Clicked="OnPickPhotoButtonClicked" BackgroundColor="DodgerBlue"/>
+        <TableView Intent="Form" Margin="16,0">
         <TableRoot>
             <TableSection Title="My Vehicle">
                 <EntryCell Label="Year" Text="{Binding Path=Vehicle.Year}"/>
@@ -10,12 +13,14 @@
                 <EntryCell Label="Model" Text="{Binding Path=Vehicle.Model}"/>
                 <EntryCell Label="Trim" Text="{Binding Path=Vehicle.Trim}"/>
                 <EntryCell Label="Engine" Text="{Binding Path=Vehicle.Engine}"/>
+                
             </TableSection>
             <TableSection>
                 <ViewCell>
-                    <Button Text="Save" Command="{Binding SaveCommand}"/>
+                    <Button Text="Save" Command="{Binding SaveCommand}" BackgroundColor="Green"/>
                 </ViewCell>
             </TableSection>
         </TableRoot>
     </TableView>
+    </StackLayout>
 </ContentPage>
