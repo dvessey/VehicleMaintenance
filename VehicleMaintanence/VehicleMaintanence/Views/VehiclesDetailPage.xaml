@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VehicleMaintanence.Views.VehiclesDetailPage">
+    <TableView Intent="Form" Margin="16,0">
+        <TableRoot>
+            <TableSection Title="My Vehicle">
+                <EntryCell Label="Year" Text="{Binding Path=Vehicle.Year}"/>
+                <EntryCell Label="Make" Text="{Binding Path=Vehicle.Make}"/>
+                <EntryCell Label="Model" Text="{Binding Path=Vehicle.Model}"/>
+                <EntryCell Label="Trim" Text="{Binding Path=Vehicle.Trim}"/>
+                <EntryCell Label="Engine" Text="{Binding Path=Vehicle.Engine}"/>
+            </TableSection>
+            <TableSection>
+                <ViewCell>
+                    <Button Text="Save" Command="{Binding SaveCommand}"/>
+                </ViewCell>
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>

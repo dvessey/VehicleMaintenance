@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage    Title="Vehicles"
+                xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                x:Name="vehiclesPage"
+                x:Class="VehicleMaintanence.Views.VehiclesPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Command="{Binding AddVehicleCommand}"/>
+    </ContentPage.ToolbarItems>
+
+    <ListView ItemsSource="{Binding Vehicles}" SelectedItem="{Binding SelectedVehicle, Mode=TwoWay}" HasUnevenRows="True" SeparatorColor="Gray" ItemSelected="OnVehicleSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ImageCell Text="{Binding MyVehicle}" TextColor="Red">
+                    <ImageCell.ContextActions>
+                        <MenuItem Text="Delete" IsDestructive="True" Command="{Binding Source={x:Reference vehiclesPage}, Path=ViewModel.DeleteVehicleCommand}" CommandParameter="{Binding .}"/>
+                    </ImageCell.ContextActions>
+                </ImageCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

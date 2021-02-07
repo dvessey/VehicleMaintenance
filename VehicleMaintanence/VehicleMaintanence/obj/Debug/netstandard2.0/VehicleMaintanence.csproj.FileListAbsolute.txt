@@ -1,0 +1,16 @@
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\bin\Debug\netstandard2.0\VehicleMaintanence.deps.json
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\bin\Debug\netstandard2.0\VehicleMaintanence.dll
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\bin\Debug\netstandard2.0\ref\VehicleMaintanence.dll
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\bin\Debug\netstandard2.0\VehicleMaintanence.pdb
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\obj\Debug\netstandard2.0\VehicleMaintanence.csprojAssemblyReference.cache
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\obj\Debug\netstandard2.0\Views\VehiclesDetailPage.xaml.g.cs
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\obj\Debug\netstandard2.0\Views\VehiclesPage.xaml.g.cs
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\obj\Debug\netstandard2.0\VehicleMaintanence.AssemblyInfoInputs.cache
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\obj\Debug\netstandard2.0\VehicleMaintanence.AssemblyInfo.cs
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\obj\Debug\netstandard2.0\VehicleMaintanence.csproj.CoreCompileInputs.cache
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\obj\Debug\netstandard2.0\VehicleMaintanence.dll
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\obj\Debug\netstandard2.0\ref\VehicleMaintanence.dll
+C:\Users\dvess\source\repos\VehicleMaintanence\VehicleMaintanence\VehicleMaintanence\obj\Debug\netstandard2.0\VehicleMaintanence.pdb
